@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{
+	height:100%;
+	min-height:100%;
+}
+body{
+	background-image:url(../../image/bg.png);
+}
+
+.centrado{
+	margin:0 auto 0 auto;
+}
+
+.anchoBase{
+	width:900px;
+}
+
+.fondoPrincipal{
+	background-color:#FFF;
+}
+
+.bordes{
+	border-right:1px #000 solid;
+	border-left:1px #000 solid;
+}
+
+ul.menu_base{
+	list-style:none;
+	height:45px;
+}
+
+ul.menu_base li{
+	float:left;
+}
+
+ul.menu_base li ul{
+	display:none;
+}
